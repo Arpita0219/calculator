@@ -96,8 +96,8 @@ buttons.forEach(button => {
 function calculate(expr) {
     try {
         // Handle square root
-        if (expr.includes('√')) {
-            const num = parseFloat(expr.replace('√', ''));
+        if (expr.includes('sqrt')) {
+            const num = parseFloat(expr.replace('sqrt', ''));
             return Math.sqrt(num).toFixed(2);
         }
 
